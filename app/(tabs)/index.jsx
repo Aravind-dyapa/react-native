@@ -3,7 +3,7 @@
 import { View, Text, StyleSheet, ImageBackground, Pressable } from 'react-native'
 import { Link } from 'expo-router'
 
-import icedCoffeeImg from "@/assets/images/images1.jpg"
+import icedCoffeeImg from "@/assets/images/tibetan-wolf.jpg"
 
 const app = () => {
   return (
@@ -13,11 +13,11 @@ const app = () => {
         resizeMode="cover"
         style={styles.image}
       >
-        <Text style={styles.title}>Coffee Shop</Text>
+        <Text style={styles.title}>Pet Shop</Text>
 
         <Link href="/menu" style={{ marginHorizontal: 'auto' }} asChild>
           <Pressable style={styles.button}>
-            <Text style={styles.buttonText}>Our Menu</Text>
+            <Text style={styles.buttonText}> Click to view Menu</Text>
           </Pressable>
         </Link>
 
