@@ -17,7 +17,7 @@ const app = () => {
 
         <Link href="/menu" style={{ marginHorizontal: 'auto' }} asChild>
           <Pressable style={styles.button}>
-            <Text style={styles.buttonText}> Click to view Menu</Text>
+            <Text style={styles.buttonText}> CLICK TO VIEW MENU</Text>
           </Pressable>
         </Link>
 
